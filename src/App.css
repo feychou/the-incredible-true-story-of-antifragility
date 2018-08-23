@@ -2,6 +2,11 @@ body {
   background-color: #FFFFE0;
 }
 
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
 .App {
   text-align: center;
   font-family: 'Gaegu';
@@ -9,11 +14,12 @@ body {
 }
 
 .App-header {
-  padding: 20px 0 10px 0;
+  padding: 20px 0;
   background-image: url('./assets/header.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  margin-bottom: 85px;
 }
 
 .App-title {
@@ -21,11 +27,21 @@ body {
   font-family: 'Gaegu', serif;
 }
 
-.App-intro {
+.App-section {
   font-size: 1.5em;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.Glom-section-content {
+  display: flex;
+  justify-content: center;
+}
+
+.glom {
+  max-height: 500px;
+  margin-right: 50px;
 }
 
 
