@@ -1,0 +1,31 @@
+body {
+  background-color: #FFFFE0;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Gaegu';
+  margin: auto;
+}
+
+.App-header {
+  padding: 20px 0 10px 0;
+  background-image: url('./assets/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.App-title {
+  font-size: 3em;
+  font-family: 'Gaegu', serif;
+}
+
+.App-intro {
+  font-size: 1.5em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
