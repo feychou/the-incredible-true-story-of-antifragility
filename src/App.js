@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import AntifragilityWorld from './assets/header.png';
 import Glom from './assets/glom.png';
 import './App.css';
 
@@ -11,6 +12,7 @@ class App extends Component {
           <h1 className="App-title">
             The Incredible True Story <br /> of Antifragility
           </h1>
+          <img className="AntifragilityWorld" src={AntifragilityWorld} alt="Antifragility World" width="100%" />
         </div>
         <div className="App-section">
           <p>Have you ever heard of the Gloms?</p>

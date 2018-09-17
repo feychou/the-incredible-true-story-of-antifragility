@@ -15,16 +15,16 @@ h2 {
 
 .App-header {
   padding: 20px 0;
-  background-image: url('./assets/header.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  margin-bottom: 85px;
+  position: relative;
 }
 
 .App-title {
   font-size: 3em;
   font-family: 'Gaegu', serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto
 }
 
 .App-section {
